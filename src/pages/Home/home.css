@@ -1,5 +1,24 @@
-.container {
+.cards-flex {
+    height: 110vh;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cards-icon-users {
+    width: 35%;
+    margin: 0 auto;
+    margin-top: 7px;
+}
+
+.cards-icon-book {
+    width: 32%;
+    margin: 0 auto;
+    margin-top: 7px;
+}
+
+.cards-icon-justice {
+    width: 32%;
+    margin: 0 auto;
+    margin-top: 7px;
 }
