@@ -16,7 +16,7 @@ const Home = () => (
         </div>
         <Header />
         <div className='cards-flex'>
-            <Cards src={Users} alt='Ícone de três silhuetas' classIcon='cards-icon-users'>
+            <Cards src={Users} alt='Ícone de três silhuetas' className='cards-font' classIcon='cards-icon-users'>
                 Mais de 45 milhões de pessoas. Sabe o que é esse número? É a quantidade 
                 de brasileiros que possuem algum tipo de deficiência que dificulta o acesso
                 à informação e navegação na internet. Eles representam cerca de 24% da 

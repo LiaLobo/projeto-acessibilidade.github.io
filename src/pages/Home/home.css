@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700|Maven+Pro:600,700&display=swap');
+
 .cards-flex {
     height: 110vh;
     display: flex;
@@ -9,6 +11,7 @@
     width: 35%;
     margin: 0 auto;
     margin-top: 7px;
+    font-family: ;
 }
 
 .cards-icon-book {
@@ -21,4 +24,9 @@
     width: 32%;
     margin: 0 auto;
     margin-top: 7px;
+}
+
+.card-text {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
 }

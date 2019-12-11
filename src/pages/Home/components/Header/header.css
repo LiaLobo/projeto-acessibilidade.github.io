@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700|Maven+Pro:600,700&display=swap');
+
 .home-header {
     background-image: url('../../../../assets/Img/web-text-1591060.jpg');
     min-height: 50vh;
@@ -26,5 +28,6 @@
 }
 
 .home-div-text p {
+    font-family: 'Maven Pro', sans-serif;
     color: #ffffff;
 }
