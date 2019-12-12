@@ -7,18 +7,18 @@ import './start.css'
 
 const Start = () => (
     <Fragment>
-        <div>
+        <nav>
             <NavBar />
-        </div>
+        </nav>
         <main>
             <h1>Algumas dicas para começar seu site</h1>
             <section>
                 <Tips />
             </section>
         </main>
-        <div>
+        <footer>
             <Footer />
-        </div>
+        </footer>
     </Fragment>
 )
 
