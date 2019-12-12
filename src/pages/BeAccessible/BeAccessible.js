@@ -21,7 +21,9 @@ const BeAccessible = () => (
                         startTime
                         src={Video}
                     />
-                    <p></p>
+                    <p className='be-description'>
+                        Marina Yonashiro, consultora em tecnologias assistivas
+                    </p>
                 </section>
                 <section>
                     <p className='be-text be-margin'>
@@ -43,7 +45,7 @@ const BeAccessible = () => (
                         os mecanismos de busca como Google e Bing também passam a ter melhor acesso ao conteúdo e
                         acabam por destacar a classificação das páginas desses sites em seus resultados de buscas.
 
-                        Permitir esse tipo de acesso é expandir mercado consumidor do seu negócio.
+                        Permitir esse tipo de acesso é expandir o mercado consumidor do seu negócio.
                     </p>
                 </section>
             </section>
