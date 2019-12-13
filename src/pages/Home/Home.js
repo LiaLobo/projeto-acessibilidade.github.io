@@ -36,10 +36,7 @@ const Home = () => (
                 Brasil temos, a Lei Brasileira de Inclusão (Lei nº 13.146, de 6 de julho de 2015).
             </Cards>
         </section>
-        
-        <footer>
             <Footer />
-        </footer>
     </Fragment>
 )
 

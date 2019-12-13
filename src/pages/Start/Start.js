@@ -3,6 +3,8 @@ import NavBar from '../../components/NavBar/NavBar'
 import Tips from './components/Tips/Tips'
 import PrintAlt from '../../assets/Img/print-alt.PNG'
 import Cabeçalho from '../../assets/Img/print-cabeçalho.PNG'
+import Form from '../../assets/Img/print-form.PNG'
+import Html from '../../assets/Img/print-semantico.PNG'
 import Footer from '../../components/Footer/Footer'
 
 import './start.css'
@@ -39,10 +41,27 @@ const Start = () => (
                     title='Associar uma tag label aos elementos de formulário'
                     text='
                         A tag <label> é como um rótulo necessário para ajudar todos os leitores a entender o que precisa ser preeenchido nos inputs
-                        ou outros elementos do formulário
+                        ou outros elementos do formulário.
                     '
-                    source={Cabeçalho}
+                    source={Form}
                     alt='print da tela de desenvolvimento de site'
+                />
+                <Tips
+                    title='HTML semântico'
+                    text='
+                        No HTML existem tags semânticas, ou seja, tags com significado que servem para deixar a estrutura do site mais
+                        legível e organizada, evitando utilizar a tag <div> que não é semântica. Algumas dessas tags são: <nav>, <header>,
+                        <article>, <section>, <aside>, <footer>.
+                    '
+                    source={Html}
+                    alt='print da tela de desenvolvimento de site'
+                />
+                <Tips
+                    title='Contraste'
+                    text='
+                        Pensar no contraste adequado das cores entre o conteúdo e o fundo reduz a dificuldade de visualização de pessoas
+                        com daltonismo e outras condições de deficiência visual.
+                    '
                 />
             </section>
         </main>

@@ -32,3 +32,37 @@
 .be-margin {
     margin-top: 5%;
 }
+
+/* .be-footer {
+    width: 100vw;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(248, 247, 247, 0.904);
+    text-align: center;
+    color: rgba(0,0,0,.5);
+    margin-top: 6%;
+    position: absolute;
+    top: 1965px;
+}
+
+.be-footer a {
+    text-decoration: none;
+    color: rgba(0,0,0,.5);
+} */
+
+/* @media (min-width: 768px) {
+    .be-footer {
+        width: 100vw;
+        height: 90px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: rgba(248, 247, 247, 0.904);
+        text-align: center;
+        color: rgba(0,0,0,.5);
+        margin-top: 6%;
+        top: 970px;
+    }
+} */

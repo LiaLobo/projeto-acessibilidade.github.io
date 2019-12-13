@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
 import NavBar from '../../components/NavBar/NavBar'
-import Video from '../../assets/Video/A importância da acessibilidade.mp4'
+import Video from '../../assets/Video/AcessibilidadeHeadliner.mp4'
 import { Player } from 'video-react';
 import Footer from '../../components/Footer/Footer'
 
@@ -9,7 +9,7 @@ import './beAccessible.css'
 const BeAccessible = () => (
     <Fragment>
         <nav>
-            <NavBar />
+            <NavBar tabindex='0'/>
         </nav>
         <main>
             <section className='be-container'>
@@ -18,9 +18,11 @@ const BeAccessible = () => (
                         Quais as vantagens de ter um site acessível?
                     </h1>
                     <Player
+                        tabindex='0'
                         startTime
                         src={Video}
-                    />
+                    > 
+                    </Player>
                     <p className='be-description'>
                         Marina Yonashiro, consultora em tecnologias assistivas
                     </p>
@@ -50,10 +52,12 @@ const BeAccessible = () => (
                 </section>
             </section>
         </main>
-        <footer>
+        <footer className='be-footer'>
             <Footer />
         </footer>
     </Fragment>
 )
 
 export default BeAccessible
+
+{/* <Track label='Português' kind='subtitles' srclang='pt' src='Acessibilidade.srt' default/> */}

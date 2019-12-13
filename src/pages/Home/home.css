@@ -5,6 +5,8 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
+    position: relative;
 }
 
 .cards-icon-users {
@@ -29,3 +31,37 @@
     font-family: 'Lato', sans-serif;
     font-weight: 300;
 }
+
+/* .home-footer {
+    width: 100vw;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(248, 247, 247, 0.904);
+    text-align: center;
+    color: rgba(0,0,0,.5);
+    margin-top: 6%;
+    position: absolute;
+    top: 1950px;
+}
+
+.home-footer a {
+    text-decoration: none;
+    color: rgba(0,0,0,.5);
+}
+
+@media (min-width: 768px) {
+    .home-footer {
+        width: 100vw;
+        height: 90px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: rgba(248, 247, 247, 0.904);
+        text-align: center;
+        color: rgba(0,0,0,.5);
+        margin-top: 6%;
+        top: 900px;
+    }
+} */
